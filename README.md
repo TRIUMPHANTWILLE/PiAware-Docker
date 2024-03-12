@@ -1,6 +1,6 @@
 ![dark](https://github.com/obstruse/PiAware-Docker/raw/master/Images/dark3-2.png "dark")
 # PiAware
-Docker build of PiAware 7.2 + dump1090-fa + OpenLayers3 + lighttpd, for Raspberry Pi.
+Docker build of PiAware 9.2 + dump1090-fa + OpenLayers3 + lighttpd, for Raspberry Pi.
 
 https://github.com/obstruse/PiAware-Docker<br>
 https://hub.docker.com/r/obstruse/piaware
@@ -9,56 +9,10 @@ Intended for use on LibreELEC(Kodi) with Docker and Portainer addons.
 
 ## Hardware
 
-- Raspberry Pi 3 (e.g.: https://www.adafruit.com/product/3775)
+- Raspberry Pi 3-5 (e.g.: https://www.adafruit.com/product/3775)
 - RTL-SDR Dongle (e.g.: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/ )
 
 ## Prepare Raspberry Pi
-
-### Install LibreELEC
-
-Boot the Pi using LibreELEC from PINN (PINN Is Not NOOBS):
-
-https://sourceforge.net/projects/pinn/
-
-or using the LibreELEC installer:
-
-https://libreelec.tv/downloads/
-
-#### Enable SSH
-
-* Kodi main menu -> Add-ons -> LibreELEC Configuration -> Services -> Enable SSH
-
-![SSH](https://github.com/obstruse/PiAware-Docker/raw/master/Images/ssh.png "SSH")
-
-#### Blacklist RTL Kernel Module
-
-* Connect using SSH and create the blacklist file:
-
-```
-echo 'blacklist dvb-usb-rtl28xxu' > /etc/modprobe.d/blacklist-rtl28xxu.conf
-```
-
-* Reboot
-
-### Install Add-ons:
-
-Install the Docker add-on :
-
-* Kodi main menu ->  Add-ons -> Install from repository 
-
-![Install from Repo](https://github.com/obstruse/PiAware-Docker/raw/master/Images/installFromRep.png "Install from Repo")
-
-* LibreELEC Add-ons -> Services -> Docker
-
-![Docker](https://github.com/obstruse/PiAware-Docker/raw/master/Images/docker.png "Docker")
-
-Install the Portainer add-on:
-* LibreELEC Add-ons -> Add-on Repository -> LinuxServer.io's Docker Add-ons
-
-![Docker Repo](https://github.com/obstruse/PiAware-Docker/raw/master/Images/dockerRepo.png "Docker Repo")
-
-* Kodi main menu -> Add-ons -> Install from repository 
-* LinuxServer.io's Docker Add-ons -> Services -> Portainer
 
 ![Portainer](https://github.com/obstruse/PiAware-Docker/raw/master/Images/portainer.png "Portainer")
 
