@@ -12,10 +12,6 @@ Intended for use on LibreELEC(Kodi) with Docker and Portainer addons.
 - Raspberry Pi 3-5 (e.g.: https://www.adafruit.com/product/3775)
 - RTL-SDR Dongle (e.g.: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/ )
 
-## Prepare Raspberry Pi
-
-![Portainer](https://github.com/obstruse/PiAware-Docker/raw/master/Images/portainer.png "Portainer")
-
 ## Install Piaware
 
 Access Portainer at:  http://192.168.1.12:9000 (replace the IP with the address of your Raspberry Pi)
