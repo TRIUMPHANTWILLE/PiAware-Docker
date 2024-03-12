@@ -13,8 +13,8 @@ RUN apt-get -qq install --no-install-recommends -y \
     wget \
     git
 
-RUN wget -q https://flightaware.com/adsb/piaware/files/packages/pool/piaware/p/piaware-support/piaware-repository_7.2_all.deb
-RUN dpkg -i piaware-repository_7.2_all.deb
+RUN wget -q https://www.flightaware.com/adsb/piaware/files/packages/pool/piaware/f/flightaware-apt-repository/flightaware-apt-repository_1.2_all.deb
+RUN dpkg -i flightaware-apt-repository_1.2_all.deb
 
 RUN apt-get -qq update
 RUN apt-get -qq install --no-install-recommends -y \
