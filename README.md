@@ -9,8 +9,8 @@ Intended for use on LibreELEC(Kodi) with Docker and Portainer addons.
 
 ## Hardware
 
-- Raspberry Pi 3-5 (e.g.: https://www.adafruit.com/product/3775)
-- RTL-SDR Dongle (e.g.: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/ )
+- Raspberry Pi 3-5 (e.g.: [https://www.adafruit.com/product/3775](https://www.canakit.com/raspberry-pi-5))
+- RTL-SDR Dongle (e.g.: [https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/](https://flightaware.store/products/pro-stick) )
 
 ## Install Piaware
 
